@@ -11,7 +11,7 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 @Slf4j
 public class CacheConfig {
-    private ConcurrentHashMap<String,CacheConfig>  cacheConfigMap=new ConcurrentHashMap<>();
+    private ConcurrentHashMap<String,CacheConfig>  cacheConfigMap = new ConcurrentHashMap<>();
 
     public static CacheConfig getInstance(){
         return getInstance();
